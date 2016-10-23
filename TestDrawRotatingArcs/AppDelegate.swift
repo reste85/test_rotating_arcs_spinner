@@ -3,7 +3,6 @@
 //  TestDrawRotatingArcs
 //
 //  Created by Matteo Restelli on 20/05/16.
-//  Copyright © 2016 Kalpa srl. All rights reserved.
 //
 
 import UIKit

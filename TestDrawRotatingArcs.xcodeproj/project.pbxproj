@@ -14,6 +14,7 @@
 		AC924C151CEF8DA500305AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC924C131CEF8DA500305AFA /* LaunchScreen.storyboard */; };
 		AC924C201CEF8DA500305AFA /* TestDrawRotatingArcsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC924C1F1CEF8DA500305AFA /* TestDrawRotatingArcsTests.swift */; };
 		AC924C2B1CEF8DA500305AFA /* TestDrawRotatingArcsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC924C2A1CEF8DA500305AFA /* TestDrawRotatingArcsUITests.swift */; };
+		AC924C391CEFA64600305AFA /* RotatingArcsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC924C381CEFA64600305AFA /* RotatingArcsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC924C261CEF8DA500305AFA /* TestDrawRotatingArcsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDrawRotatingArcsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC924C2A1CEF8DA500305AFA /* TestDrawRotatingArcsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDrawRotatingArcsUITests.swift; sourceTree = "<group>"; };
 		AC924C2C1CEF8DA500305AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC924C381CEFA64600305AFA /* RotatingArcsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingArcsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AC924C111CEF8DA500305AFA /* Assets.xcassets */,
 				AC924C131CEF8DA500305AFA /* LaunchScreen.storyboard */,
 				AC924C161CEF8DA500305AFA /* Info.plist */,
+				AC924C381CEFA64600305AFA /* RotatingArcsView.swift */,
 			);
 			path = TestDrawRotatingArcs;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC924C391CEFA64600305AFA /* RotatingArcsView.swift in Sources */,
 				AC924C0D1CEF8DA500305AFA /* ViewController.swift in Sources */,
 				AC924C0B1CEF8DA500305AFA /* AppDelegate.swift in Sources */,
 			);
@@ -401,8 +405,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestDrawRotatingArcs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Kalpa.TestDrawRotatingArcs;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reste85.testdrawrotatingArcs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -412,8 +417,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestDrawRotatingArcs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Kalpa.TestDrawRotatingArcs;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reste85.testdrawrotatingArcs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -482,6 +488,7 @@
 				AC924C311CEF8DA500305AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC924C321CEF8DA500305AFA /* Build configuration list for PBXNativeTarget "TestDrawRotatingArcsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				AC924C341CEF8DA500305AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC924C351CEF8DA500305AFA /* Build configuration list for PBXNativeTarget "TestDrawRotatingArcsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				AC924C371CEF8DA500305AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
